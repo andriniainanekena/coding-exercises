@@ -15,7 +15,6 @@ public class Product {
         this.category = category;
     }
 
-    // Method to decrease the price by a given percentage (e.g., 10 for 10%)
     public void decreasePrice(float percentage) {
         if (percentage > 0 && percentage <= 100) {
             unitPrice -= unitPrice * (percentage / 100);
