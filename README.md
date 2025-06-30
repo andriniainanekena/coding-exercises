@@ -6,6 +6,7 @@ It currently includes exercises in:
 
 - **Java**  
 - **JavaScript**
+- **Shell**
 - And I’ll add more languages as I learn them!
 
 ## Why this repository?
