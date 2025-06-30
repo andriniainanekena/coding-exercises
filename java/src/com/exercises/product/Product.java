@@ -30,4 +30,11 @@ public class Product {
         System.out.println("Unit price: " + unitPrice + " Ar");
         System.out.println("Category: " + category);
     }
+    public static void main(String[] args) {
+        Product mac = new Product(1, "Mac M1", "SSD 1To - RAM : 16Go", 5_200_000, Category.COMPUTER);
+        mac.decreasePrice(20);
+
+        System.out.println();
+    }
+
 }
