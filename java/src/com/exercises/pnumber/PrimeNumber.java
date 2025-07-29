@@ -1,4 +1,7 @@
+package com.exercises.pnumber;
+
 import java.util.Scanner;
+
 public class PrimeNumber {
     public static String isPrime(int number) {
         if(number <= 1) {
